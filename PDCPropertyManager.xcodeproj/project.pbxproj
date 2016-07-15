@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAD0701480913F1C4022532 /* libPods-PDCPropertyManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35252B34772B2A4622985237 /* libPods-PDCPropertyManagerTests.a */; };
+		6C875EBD74B9BA404227DCB5 /* libPods-PDCPropertyManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F03938A9C8E2D07B31E1A /* libPods-PDCPropertyManagerUITests.a */; };
+		71C48ED3579C8B9D84E45905 /* libPods-PDCPropertyManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F621FA06CCD088EF34567436 /* libPods-PDCPropertyManager.a */; };
+		EAC2D4AB1D38B3D80095B141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4AA1D38B3D80095B141 /* main.m */; };
+		EAC2D4AE1D38B3D80095B141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4AD1D38B3D80095B141 /* AppDelegate.m */; };
+		EAC2D4B11D38B3D80095B141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4B01D38B3D80095B141 /* ViewController.m */; };
+		EAC2D4B41D38B3D80095B141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC2D4B21D38B3D80095B141 /* Main.storyboard */; };
+		EAC2D4B61D38B3D80095B141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC2D4B51D38B3D80095B141 /* Assets.xcassets */; };
+		EAC2D4B91D38B3D80095B141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC2D4B71D38B3D80095B141 /* LaunchScreen.storyboard */; };
+		EAC2D4C41D38B3D80095B141 /* PDCPropertyManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4C31D38B3D80095B141 /* PDCPropertyManagerTests.m */; };
+		EAC2D4CF1D38B3D80095B141 /* PDCPropertyManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4CE1D38B3D80095B141 /* PDCPropertyManagerUITests.m */; };
+		EAC2D5081D38B4BB0095B141 /* UIView+PDCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4DE1D38B4BB0095B141 /* UIView+PDCAdd.m */; };
+		EAC2D5091D38B4BB0095B141 /* PDCPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4E11D38B4BB0095B141 /* PDCPropertyManager.m */; };
+		EAC2D50A1D38B4BB0095B141 /* PDCPropertyManager+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4E31D38B4BB0095B141 /* PDCPropertyManager+UIButton.m */; };
+		EAC2D50B1D38B4BB0095B141 /* PDCPropertyManager+UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4E51D38B4BB0095B141 /* PDCPropertyManager+UIImageView.m */; };
+		EAC2D50C1D38B4BB0095B141 /* PDCPropertyManager+UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4E71D38B4BB0095B141 /* PDCPropertyManager+UILabel.m */; };
+		EAC2D50D1D38B4BB0095B141 /* PDCPropertyManager+UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4E91D38B4BB0095B141 /* PDCPropertyManager+UITextField.m */; };
+		EAC2D50E1D38B4BB0095B141 /* PDCPropertyManager+UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4EB1D38B4BB0095B141 /* PDCPropertyManager+UITextView.m */; };
+		EAC2D50F1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4ED1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.m */; };
+		EAC2D5101D38B4BB0095B141 /* PDCPropertyManager+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4EF1D38B4BB0095B141 /* PDCPropertyManager+UITableView.m */; };
+		EAC2D5111D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4F11D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.m */; };
+		EAC2D5121D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4F31D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.m */; };
+		EAC2D5131D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4F51D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.m */; };
+		EAC2D5141D38B4BB0095B141 /* PDCPropertyManager+UIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4F71D38B4BB0095B141 /* PDCPropertyManager+UIWebView.m */; };
+		EAC2D5151D38B4BB0095B141 /* PDCPropertyManager+UISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4F91D38B4BB0095B141 /* PDCPropertyManager+UISwitch.m */; };
+		EAC2D5161D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4FB1D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.m */; };
+		EAC2D5171D38B4BB0095B141 /* PDCPropertyManager+UISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4FD1D38B4BB0095B141 /* PDCPropertyManager+UISlider.m */; };
+		EAC2D5181D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D4FF1D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.m */; };
+		EAC2D5191D38B4BB0095B141 /* PDCPropertyManager+UIStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D5011D38B4BB0095B141 /* PDCPropertyManager+UIStepper.m */; };
+		EAC2D51A1D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D5031D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.m */; };
+		EAC2D51B1D38B4BB0095B141 /* PDCPropertyManager+UIStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D5051D38B4BB0095B141 /* PDCPropertyManager+UIStackView.m */; };
+		EAC2D51C1D38B4BB0095B141 /* PDCPropertyManager+Other.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D5071D38B4BB0095B141 /* PDCPropertyManager+Other.m */; };
+		EAC2D51F1D38B4E70095B141 /* Controller1.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D51E1D38B4E70095B141 /* Controller1.m */; };
+		EAC2D5221D38B4ED0095B141 /* SubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2D5211D38B4ED0095B141 /* SubLabel.m */; };
+		EAC2D5241D38B4F50095B141 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC2D5231D38B4F50095B141 /* 123.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC2D4C01D38B3D80095B141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC2D49E1D38B3D80095B141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC2D4A51D38B3D80095B141;
+			remoteInfo = PDCPropertyManager;
+		};
+		EAC2D4CB1D38B3D80095B141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC2D49E1D38B3D80095B141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC2D4A51D38B3D80095B141;
+			remoteInfo = PDCPropertyManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142F8CFB90941F5806D1433B /* Pods-PDCPropertyManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManagerTests/Pods-PDCPropertyManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F5A30F8B3B93E213D21DEA7 /* Pods-PDCPropertyManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManager/Pods-PDCPropertyManager.debug.xcconfig"; sourceTree = "<group>"; };
+		35252B34772B2A4622985237 /* libPods-PDCPropertyManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCPropertyManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B1EA12FFC4AC7B55528B7 /* Pods-PDCPropertyManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManagerTests/Pods-PDCPropertyManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		849923CFBE28D7E981DC932C /* Pods-PDCPropertyManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManagerUITests/Pods-PDCPropertyManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE766DEF7357C8B375FC6613 /* Pods-PDCPropertyManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManagerUITests/Pods-PDCPropertyManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D22F03938A9C8E2D07B31E1A /* libPods-PDCPropertyManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCPropertyManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D732AABF1050BA8695172DAA /* Pods-PDCPropertyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDCPropertyManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDCPropertyManager/Pods-PDCPropertyManager.release.xcconfig"; sourceTree = "<group>"; };
+		EAC2D4A61D38B3D80095B141 /* PDCPropertyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDCPropertyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC2D4AA1D38B3D80095B141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAC2D4AC1D38B3D80095B141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAC2D4AD1D38B3D80095B141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAC2D4AF1D38B3D80095B141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAC2D4B01D38B3D80095B141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAC2D4B31D38B3D80095B141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC2D4B51D38B3D80095B141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC2D4B81D38B3D80095B141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC2D4BA1D38B3D80095B141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC2D4BF1D38B3D80095B141 /* PDCPropertyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCPropertyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC2D4C31D38B3D80095B141 /* PDCPropertyManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCPropertyManagerTests.m; sourceTree = "<group>"; };
+		EAC2D4C51D38B3D80095B141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC2D4CA1D38B3D80095B141 /* PDCPropertyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDCPropertyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC2D4CE1D38B3D80095B141 /* PDCPropertyManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCPropertyManagerUITests.m; sourceTree = "<group>"; };
+		EAC2D4D01D38B3D80095B141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC2D4DD1D38B4BB0095B141 /* UIView+PDCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PDCAdd.h"; sourceTree = "<group>"; };
+		EAC2D4DE1D38B4BB0095B141 /* UIView+PDCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PDCAdd.m"; sourceTree = "<group>"; };
+		EAC2D4DF1D38B4BB0095B141 /* PDCManagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCManagerHeader.h; sourceTree = "<group>"; };
+		EAC2D4E01D38B4BB0095B141 /* PDCPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDCPropertyManager.h; sourceTree = "<group>"; };
+		EAC2D4E11D38B4BB0095B141 /* PDCPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDCPropertyManager.m; sourceTree = "<group>"; };
+		EAC2D4E21D38B4BB0095B141 /* PDCPropertyManager+UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIButton.h"; sourceTree = "<group>"; };
+		EAC2D4E31D38B4BB0095B141 /* PDCPropertyManager+UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIButton.m"; sourceTree = "<group>"; };
+		EAC2D4E41D38B4BB0095B141 /* PDCPropertyManager+UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIImageView.h"; sourceTree = "<group>"; };
+		EAC2D4E51D38B4BB0095B141 /* PDCPropertyManager+UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIImageView.m"; sourceTree = "<group>"; };
+		EAC2D4E61D38B4BB0095B141 /* PDCPropertyManager+UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UILabel.h"; sourceTree = "<group>"; };
+		EAC2D4E71D38B4BB0095B141 /* PDCPropertyManager+UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UILabel.m"; sourceTree = "<group>"; };
+		EAC2D4E81D38B4BB0095B141 /* PDCPropertyManager+UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UITextField.h"; sourceTree = "<group>"; };
+		EAC2D4E91D38B4BB0095B141 /* PDCPropertyManager+UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UITextField.m"; sourceTree = "<group>"; };
+		EAC2D4EA1D38B4BB0095B141 /* PDCPropertyManager+UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UITextView.h"; sourceTree = "<group>"; };
+		EAC2D4EB1D38B4BB0095B141 /* PDCPropertyManager+UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UITextView.m"; sourceTree = "<group>"; };
+		EAC2D4EC1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIScrollView.h"; sourceTree = "<group>"; };
+		EAC2D4ED1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIScrollView.m"; sourceTree = "<group>"; };
+		EAC2D4EE1D38B4BB0095B141 /* PDCPropertyManager+UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UITableView.h"; sourceTree = "<group>"; };
+		EAC2D4EF1D38B4BB0095B141 /* PDCPropertyManager+UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UITableView.m"; sourceTree = "<group>"; };
+		EAC2D4F01D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UITableViewCell.h"; sourceTree = "<group>"; };
+		EAC2D4F11D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UITableViewCell.m"; sourceTree = "<group>"; };
+		EAC2D4F21D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UICollectionView.h"; sourceTree = "<group>"; };
+		EAC2D4F31D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UICollectionView.m"; sourceTree = "<group>"; };
+		EAC2D4F41D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UICollectionViewCell.h"; sourceTree = "<group>"; };
+		EAC2D4F51D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UICollectionViewCell.m"; sourceTree = "<group>"; };
+		EAC2D4F61D38B4BB0095B141 /* PDCPropertyManager+UIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIWebView.h"; sourceTree = "<group>"; };
+		EAC2D4F71D38B4BB0095B141 /* PDCPropertyManager+UIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIWebView.m"; sourceTree = "<group>"; };
+		EAC2D4F81D38B4BB0095B141 /* PDCPropertyManager+UISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UISwitch.h"; sourceTree = "<group>"; };
+		EAC2D4F91D38B4BB0095B141 /* PDCPropertyManager+UISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UISwitch.m"; sourceTree = "<group>"; };
+		EAC2D4FA1D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIProgressView.h"; sourceTree = "<group>"; };
+		EAC2D4FB1D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIProgressView.m"; sourceTree = "<group>"; };
+		EAC2D4FC1D38B4BB0095B141 /* PDCPropertyManager+UISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UISlider.h"; sourceTree = "<group>"; };
+		EAC2D4FD1D38B4BB0095B141 /* PDCPropertyManager+UISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UISlider.m"; sourceTree = "<group>"; };
+		EAC2D4FE1D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UISegmentedControl.h"; sourceTree = "<group>"; };
+		EAC2D4FF1D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UISegmentedControl.m"; sourceTree = "<group>"; };
+		EAC2D5001D38B4BB0095B141 /* PDCPropertyManager+UIStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIStepper.h"; sourceTree = "<group>"; };
+		EAC2D5011D38B4BB0095B141 /* PDCPropertyManager+UIStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIStepper.m"; sourceTree = "<group>"; };
+		EAC2D5021D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIDatePicker.h"; sourceTree = "<group>"; };
+		EAC2D5031D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIDatePicker.m"; sourceTree = "<group>"; };
+		EAC2D5041D38B4BB0095B141 /* PDCPropertyManager+UIStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+UIStackView.h"; sourceTree = "<group>"; };
+		EAC2D5051D38B4BB0095B141 /* PDCPropertyManager+UIStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+UIStackView.m"; sourceTree = "<group>"; };
+		EAC2D5061D38B4BB0095B141 /* PDCPropertyManager+Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDCPropertyManager+Other.h"; sourceTree = "<group>"; };
+		EAC2D5071D38B4BB0095B141 /* PDCPropertyManager+Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDCPropertyManager+Other.m"; sourceTree = "<group>"; };
+		EAC2D51D1D38B4E70095B141 /* Controller1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller1.h; sourceTree = "<group>"; };
+		EAC2D51E1D38B4E70095B141 /* Controller1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller1.m; sourceTree = "<group>"; };
+		EAC2D5201D38B4ED0095B141 /* SubLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLabel.h; sourceTree = "<group>"; };
+		EAC2D5211D38B4ED0095B141 /* SubLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLabel.m; sourceTree = "<group>"; };
+		EAC2D5231D38B4F50095B141 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		F621FA06CCD088EF34567436 /* libPods-PDCPropertyManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDCPropertyManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC2D4A31D38B3D80095B141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C48ED3579C8B9D84E45905 /* libPods-PDCPropertyManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4BC1D38B3D80095B141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAD0701480913F1C4022532 /* libPods-PDCPropertyManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4C71D38B3D80095B141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C875EBD74B9BA404227DCB5 /* libPods-PDCPropertyManagerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47525B654C04F70C3BE7C52A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A30F8B3B93E213D21DEA7 /* Pods-PDCPropertyManager.debug.xcconfig */,
+				D732AABF1050BA8695172DAA /* Pods-PDCPropertyManager.release.xcconfig */,
+				780B1EA12FFC4AC7B55528B7 /* Pods-PDCPropertyManagerTests.debug.xcconfig */,
+				142F8CFB90941F5806D1433B /* Pods-PDCPropertyManagerTests.release.xcconfig */,
+				849923CFBE28D7E981DC932C /* Pods-PDCPropertyManagerUITests.debug.xcconfig */,
+				AE766DEF7357C8B375FC6613 /* Pods-PDCPropertyManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C11DDB611B9322258CC6A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F621FA06CCD088EF34567436 /* libPods-PDCPropertyManager.a */,
+				35252B34772B2A4622985237 /* libPods-PDCPropertyManagerTests.a */,
+				D22F03938A9C8E2D07B31E1A /* libPods-PDCPropertyManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC2D49D1D38B3D80095B141 = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4A81D38B3D80095B141 /* PDCPropertyManager */,
+				EAC2D4C21D38B3D80095B141 /* PDCPropertyManagerTests */,
+				EAC2D4CD1D38B3D80095B141 /* PDCPropertyManagerUITests */,
+				EAC2D4A71D38B3D80095B141 /* Products */,
+				47525B654C04F70C3BE7C52A /* Pods */,
+				8C11DDB611B9322258CC6A26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC2D4A71D38B3D80095B141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4A61D38B3D80095B141 /* PDCPropertyManager.app */,
+				EAC2D4BF1D38B3D80095B141 /* PDCPropertyManagerTests.xctest */,
+				EAC2D4CA1D38B3D80095B141 /* PDCPropertyManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC2D4A81D38B3D80095B141 /* PDCPropertyManager */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4DC1D38B4AA0095B141 /* Main */,
+				EAC2D4AC1D38B3D80095B141 /* AppDelegate.h */,
+				EAC2D4AD1D38B3D80095B141 /* AppDelegate.m */,
+				EAC2D4AF1D38B3D80095B141 /* ViewController.h */,
+				EAC2D4B01D38B3D80095B141 /* ViewController.m */,
+				EAC2D5201D38B4ED0095B141 /* SubLabel.h */,
+				EAC2D5211D38B4ED0095B141 /* SubLabel.m */,
+				EAC2D51D1D38B4E70095B141 /* Controller1.h */,
+				EAC2D51E1D38B4E70095B141 /* Controller1.m */,
+				EAC2D4B21D38B3D80095B141 /* Main.storyboard */,
+				EAC2D5231D38B4F50095B141 /* 123.png */,
+				EAC2D4B51D38B3D80095B141 /* Assets.xcassets */,
+				EAC2D4B71D38B3D80095B141 /* LaunchScreen.storyboard */,
+				EAC2D4BA1D38B3D80095B141 /* Info.plist */,
+				EAC2D4A91D38B3D80095B141 /* Supporting Files */,
+			);
+			path = PDCPropertyManager;
+			sourceTree = "<group>";
+		};
+		EAC2D4A91D38B3D80095B141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4AA1D38B3D80095B141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC2D4C21D38B3D80095B141 /* PDCPropertyManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4C31D38B3D80095B141 /* PDCPropertyManagerTests.m */,
+				EAC2D4C51D38B3D80095B141 /* Info.plist */,
+			);
+			path = PDCPropertyManagerTests;
+			sourceTree = "<group>";
+		};
+		EAC2D4CD1D38B3D80095B141 /* PDCPropertyManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4CE1D38B3D80095B141 /* PDCPropertyManagerUITests.m */,
+				EAC2D4D01D38B3D80095B141 /* Info.plist */,
+			);
+			path = PDCPropertyManagerUITests;
+			sourceTree = "<group>";
+		};
+		EAC2D4DC1D38B4AA0095B141 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2D4DF1D38B4BB0095B141 /* PDCManagerHeader.h */,
+				EAC2D4DD1D38B4BB0095B141 /* UIView+PDCAdd.h */,
+				EAC2D4DE1D38B4BB0095B141 /* UIView+PDCAdd.m */,
+				EAC2D4E01D38B4BB0095B141 /* PDCPropertyManager.h */,
+				EAC2D4E11D38B4BB0095B141 /* PDCPropertyManager.m */,
+				EAC2D4E21D38B4BB0095B141 /* PDCPropertyManager+UIButton.h */,
+				EAC2D4E31D38B4BB0095B141 /* PDCPropertyManager+UIButton.m */,
+				EAC2D4E41D38B4BB0095B141 /* PDCPropertyManager+UIImageView.h */,
+				EAC2D4E51D38B4BB0095B141 /* PDCPropertyManager+UIImageView.m */,
+				EAC2D4E61D38B4BB0095B141 /* PDCPropertyManager+UILabel.h */,
+				EAC2D4E71D38B4BB0095B141 /* PDCPropertyManager+UILabel.m */,
+				EAC2D4E81D38B4BB0095B141 /* PDCPropertyManager+UITextField.h */,
+				EAC2D4E91D38B4BB0095B141 /* PDCPropertyManager+UITextField.m */,
+				EAC2D4EA1D38B4BB0095B141 /* PDCPropertyManager+UITextView.h */,
+				EAC2D4EB1D38B4BB0095B141 /* PDCPropertyManager+UITextView.m */,
+				EAC2D4EC1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.h */,
+				EAC2D4ED1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.m */,
+				EAC2D4EE1D38B4BB0095B141 /* PDCPropertyManager+UITableView.h */,
+				EAC2D4EF1D38B4BB0095B141 /* PDCPropertyManager+UITableView.m */,
+				EAC2D4F01D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.h */,
+				EAC2D4F11D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.m */,
+				EAC2D4F21D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.h */,
+				EAC2D4F31D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.m */,
+				EAC2D4F41D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.h */,
+				EAC2D4F51D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.m */,
+				EAC2D4F61D38B4BB0095B141 /* PDCPropertyManager+UIWebView.h */,
+				EAC2D4F71D38B4BB0095B141 /* PDCPropertyManager+UIWebView.m */,
+				EAC2D4F81D38B4BB0095B141 /* PDCPropertyManager+UISwitch.h */,
+				EAC2D4F91D38B4BB0095B141 /* PDCPropertyManager+UISwitch.m */,
+				EAC2D4FA1D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.h */,
+				EAC2D4FB1D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.m */,
+				EAC2D4FC1D38B4BB0095B141 /* PDCPropertyManager+UISlider.h */,
+				EAC2D4FD1D38B4BB0095B141 /* PDCPropertyManager+UISlider.m */,
+				EAC2D4FE1D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.h */,
+				EAC2D4FF1D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.m */,
+				EAC2D5001D38B4BB0095B141 /* PDCPropertyManager+UIStepper.h */,
+				EAC2D5011D38B4BB0095B141 /* PDCPropertyManager+UIStepper.m */,
+				EAC2D5021D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.h */,
+				EAC2D5031D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.m */,
+				EAC2D5041D38B4BB0095B141 /* PDCPropertyManager+UIStackView.h */,
+				EAC2D5051D38B4BB0095B141 /* PDCPropertyManager+UIStackView.m */,
+				EAC2D5061D38B4BB0095B141 /* PDCPropertyManager+Other.h */,
+				EAC2D5071D38B4BB0095B141 /* PDCPropertyManager+Other.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC2D4A51D38B3D80095B141 /* PDCPropertyManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC2D4D31D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManager" */;
+			buildPhases = (
+				F284D7CD2CD6074FA6D1F70C /* [CP] Check Pods Manifest.lock */,
+				EAC2D4A21D38B3D80095B141 /* Sources */,
+				EAC2D4A31D38B3D80095B141 /* Frameworks */,
+				EAC2D4A41D38B3D80095B141 /* Resources */,
+				20B225A57D9019E8259DAC92 /* [CP] Embed Pods Frameworks */,
+				F845843185C469E40F3436D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDCPropertyManager;
+			productName = PDCPropertyManager;
+			productReference = EAC2D4A61D38B3D80095B141 /* PDCPropertyManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC2D4BE1D38B3D80095B141 /* PDCPropertyManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC2D4D61D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManagerTests" */;
+			buildPhases = (
+				A61C3470553FEBA975823258 /* [CP] Check Pods Manifest.lock */,
+				EAC2D4BB1D38B3D80095B141 /* Sources */,
+				EAC2D4BC1D38B3D80095B141 /* Frameworks */,
+				EAC2D4BD1D38B3D80095B141 /* Resources */,
+				6905B997EA0B38DD6933ED83 /* [CP] Embed Pods Frameworks */,
+				37A3D268DC80DAFA1C71D77B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC2D4C11D38B3D80095B141 /* PBXTargetDependency */,
+			);
+			name = PDCPropertyManagerTests;
+			productName = PDCPropertyManagerTests;
+			productReference = EAC2D4BF1D38B3D80095B141 /* PDCPropertyManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAC2D4C91D38B3D80095B141 /* PDCPropertyManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC2D4D91D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManagerUITests" */;
+			buildPhases = (
+				0E2F5395FE8F6A1233DEF37D /* [CP] Check Pods Manifest.lock */,
+				EAC2D4C61D38B3D80095B141 /* Sources */,
+				EAC2D4C71D38B3D80095B141 /* Frameworks */,
+				EAC2D4C81D38B3D80095B141 /* Resources */,
+				2F319170F5E74686473DC3FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC2D4CC1D38B3D80095B141 /* PBXTargetDependency */,
+			);
+			name = PDCPropertyManagerUITests;
+			productName = PDCPropertyManagerUITests;
+			productReference = EAC2D4CA1D38B3D80095B141 /* PDCPropertyManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC2D49E1D38B3D80095B141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = pdc;
+				TargetAttributes = {
+					EAC2D4A51D38B3D80095B141 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EAC2D4BE1D38B3D80095B141 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAC2D4A51D38B3D80095B141;
+					};
+					EAC2D4C91D38B3D80095B141 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAC2D4A51D38B3D80095B141;
+					};
+				};
+			};
+			buildConfigurationList = EAC2D4A11D38B3D80095B141 /* Build configuration list for PBXProject "PDCPropertyManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC2D49D1D38B3D80095B141;
+			productRefGroup = EAC2D4A71D38B3D80095B141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC2D4A51D38B3D80095B141 /* PDCPropertyManager */,
+				EAC2D4BE1D38B3D80095B141 /* PDCPropertyManagerTests */,
+				EAC2D4C91D38B3D80095B141 /* PDCPropertyManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC2D4A41D38B3D80095B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2D5241D38B4F50095B141 /* 123.png in Resources */,
+				EAC2D4B91D38B3D80095B141 /* LaunchScreen.storyboard in Resources */,
+				EAC2D4B61D38B3D80095B141 /* Assets.xcassets in Resources */,
+				EAC2D4B41D38B3D80095B141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4BD1D38B3D80095B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4C81D38B3D80095B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2F5395FE8F6A1233DEF37D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20B225A57D9019E8259DAC92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCPropertyManager/Pods-PDCPropertyManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F319170F5E74686473DC3FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCPropertyManagerUITests/Pods-PDCPropertyManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A3D268DC80DAFA1C71D77B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCPropertyManagerTests/Pods-PDCPropertyManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6905B997EA0B38DD6933ED83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCPropertyManagerTests/Pods-PDCPropertyManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61C3470553FEBA975823258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F284D7CD2CD6074FA6D1F70C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F845843185C469E40F3436D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDCPropertyManager/Pods-PDCPropertyManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC2D4A21D38B3D80095B141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2D5101D38B4BB0095B141 /* PDCPropertyManager+UITableView.m in Sources */,
+				EAC2D51F1D38B4E70095B141 /* Controller1.m in Sources */,
+				EAC2D51C1D38B4BB0095B141 /* PDCPropertyManager+Other.m in Sources */,
+				EAC2D5121D38B4BB0095B141 /* PDCPropertyManager+UICollectionView.m in Sources */,
+				EAC2D51B1D38B4BB0095B141 /* PDCPropertyManager+UIStackView.m in Sources */,
+				EAC2D5221D38B4ED0095B141 /* SubLabel.m in Sources */,
+				EAC2D51A1D38B4BB0095B141 /* PDCPropertyManager+UIDatePicker.m in Sources */,
+				EAC2D5141D38B4BB0095B141 /* PDCPropertyManager+UIWebView.m in Sources */,
+				EAC2D50F1D38B4BB0095B141 /* PDCPropertyManager+UIScrollView.m in Sources */,
+				EAC2D50E1D38B4BB0095B141 /* PDCPropertyManager+UITextView.m in Sources */,
+				EAC2D50A1D38B4BB0095B141 /* PDCPropertyManager+UIButton.m in Sources */,
+				EAC2D5111D38B4BB0095B141 /* PDCPropertyManager+UITableViewCell.m in Sources */,
+				EAC2D5191D38B4BB0095B141 /* PDCPropertyManager+UIStepper.m in Sources */,
+				EAC2D5151D38B4BB0095B141 /* PDCPropertyManager+UISwitch.m in Sources */,
+				EAC2D50B1D38B4BB0095B141 /* PDCPropertyManager+UIImageView.m in Sources */,
+				EAC2D50D1D38B4BB0095B141 /* PDCPropertyManager+UITextField.m in Sources */,
+				EAC2D5161D38B4BB0095B141 /* PDCPropertyManager+UIProgressView.m in Sources */,
+				EAC2D5181D38B4BB0095B141 /* PDCPropertyManager+UISegmentedControl.m in Sources */,
+				EAC2D4B11D38B3D80095B141 /* ViewController.m in Sources */,
+				EAC2D4AE1D38B3D80095B141 /* AppDelegate.m in Sources */,
+				EAC2D5171D38B4BB0095B141 /* PDCPropertyManager+UISlider.m in Sources */,
+				EAC2D5081D38B4BB0095B141 /* UIView+PDCAdd.m in Sources */,
+				EAC2D4AB1D38B3D80095B141 /* main.m in Sources */,
+				EAC2D5131D38B4BB0095B141 /* PDCPropertyManager+UICollectionViewCell.m in Sources */,
+				EAC2D5091D38B4BB0095B141 /* PDCPropertyManager.m in Sources */,
+				EAC2D50C1D38B4BB0095B141 /* PDCPropertyManager+UILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4BB1D38B3D80095B141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2D4C41D38B3D80095B141 /* PDCPropertyManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2D4C61D38B3D80095B141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC2D4CF1D38B3D80095B141 /* PDCPropertyManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC2D4C11D38B3D80095B141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC2D4A51D38B3D80095B141 /* PDCPropertyManager */;
+			targetProxy = EAC2D4C01D38B3D80095B141 /* PBXContainerItemProxy */;
+		};
+		EAC2D4CC1D38B3D80095B141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC2D4A51D38B3D80095B141 /* PDCPropertyManager */;
+			targetProxy = EAC2D4CB1D38B3D80095B141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC2D4B21D38B3D80095B141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC2D4B31D38B3D80095B141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC2D4B71D38B3D80095B141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC2D4B81D38B3D80095B141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC2D4D11D38B3D80095B141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAC2D4D21D38B3D80095B141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC2D4D41D38B3D80095B141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5A30F8B3B93E213D21DEA7 /* Pods-PDCPropertyManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDCPropertyManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAC2D4D51D38B3D80095B141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D732AABF1050BA8695172DAA /* Pods-PDCPropertyManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDCPropertyManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAC2D4D71D38B3D80095B141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780B1EA12FFC4AC7B55528B7 /* Pods-PDCPropertyManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDCPropertyManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDCPropertyManager.app/PDCPropertyManager";
+			};
+			name = Debug;
+		};
+		EAC2D4D81D38B3D80095B141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142F8CFB90941F5806D1433B /* Pods-PDCPropertyManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDCPropertyManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDCPropertyManager.app/PDCPropertyManager";
+			};
+			name = Release;
+		};
+		EAC2D4DA1D38B3D80095B141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849923CFBE28D7E981DC932C /* Pods-PDCPropertyManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PDCPropertyManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDCPropertyManager;
+			};
+			name = Debug;
+		};
+		EAC2D4DB1D38B3D80095B141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE766DEF7357C8B375FC6613 /* Pods-PDCPropertyManagerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PDCPropertyManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kidhub.PDCPropertyManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDCPropertyManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC2D4A11D38B3D80095B141 /* Build configuration list for PBXProject "PDCPropertyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2D4D11D38B3D80095B141 /* Debug */,
+				EAC2D4D21D38B3D80095B141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC2D4D31D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2D4D41D38B3D80095B141 /* Debug */,
+				EAC2D4D51D38B3D80095B141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC2D4D61D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2D4D71D38B3D80095B141 /* Debug */,
+				EAC2D4D81D38B3D80095B141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC2D4D91D38B3D80095B141 /* Build configuration list for PBXNativeTarget "PDCPropertyManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC2D4DA1D38B3D80095B141 /* Debug */,
+				EAC2D4DB1D38B3D80095B141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC2D49E1D38B3D80095B141 /* Project object */;
+}
