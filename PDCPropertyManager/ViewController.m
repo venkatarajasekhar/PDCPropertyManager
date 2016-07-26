@@ -38,7 +38,11 @@
     [super viewDidAppear:animated];
     /* set view */
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.myView.pdc_manager.x(100).y(300).width(400).height(300);
+        self.myView.pdc_manager
+        .x(100)
+        .y(300)
+        .width(400)
+        .height(300);
     });
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -78,10 +82,7 @@
     /* btn title */
     self.btn.pdc_manager
     .bt_title(@"this is button title",UIControlStateNormal)
-    .bt_image([UIImage imageNamed:@"123"],UIControlStateNormal);
-    
-    
-    self.btn.pdc_manager
+    .bt_image([UIImage imageNamed:@"123"],UIControlStateNormal)
     .action(self,@selector(action:),UIControlEventTouchUpInside);
     
     

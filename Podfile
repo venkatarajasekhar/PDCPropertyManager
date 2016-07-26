@@ -6,6 +6,7 @@ target 'PDCPropertyManager' do
   # use_frameworks!
 
   pod 'MLeaksFinder'
+   pod 'FBMemoryProfiler'
 
   target 'PDCPropertyManagerTests' do
     inherit! :search_paths

@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <FBMemoryProfiler/FBMemoryProfiler.h>
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) FBMemoryProfiler *memoryProfiler;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    FBMemoryProfiler *memoryProfiler = [FBMemoryProfiler new];
+    [memoryProfiler enable];
+    
+    // Store memory profiler somewhere to extend it's lifetime
+    _memoryProfiler = memoryProfiler;
+    
     return YES;
 }
 
