@@ -7,7 +7,7 @@
 //
 
 #import "Controller1.h"
-#import "UIView+PDCAdd.h"
+#import "UIView+PDCPropertyManager.h"
 
 @interface Controller1()
 @property (strong, nonatomic) UIButton *btn;

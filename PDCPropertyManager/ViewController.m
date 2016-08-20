@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIView+PDCAdd.h"
+#import "UIView+PDCPropertyManager.h"
 #import "SubLabel.h"
 #import "PDCPropertyManager+UIImageView.h"
 #import "PDCPropertyManager+UIButton.h"

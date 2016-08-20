@@ -1,14 +1,15 @@
 //
-//  UIView+PDCAdd.m
-//  UICategory
+//  UIView+PDCPropertyManager.m
+//  PDCPropertyManager
 //
-//  Created by KH on 16/6/4.
-//  Copyright © 2016年 KH. All rights reserved.
+//  Created by pdc on 16/8/17.
+//  Copyright © 2016年 pdc. All rights reserved.
 //
 
-#import "UIView+PDCAdd.h"
+#import "UIView+PDCPropertyManager.h"
 #import <objc/runtime.h>
-@implementation UIView (PDCAdd)
+
+@implementation UIView (PDCPropertyManager)
 -(void )setPdc_manager:(PDCPropertyManager *)pdc_manager
 {
     objc_setAssociatedObject(self, @selector(pdc_manager), pdc_manager, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -24,11 +25,11 @@
     
     manager.main = self;    //clear is UIControl or UIView
     
-//    //is UIView
-//    if ([self isKindOfClass:[UIView class]])
-//    {
-//        manager.pdc_view = self;
-//    }
+    //    //is UIView
+    //    if ([self isKindOfClass:[UIView class]])
+    //    {
+    //        manager.pdc_view = self;
+    //    }
     
     //is UILabel or subclass    --- 0 ---
     if ([self isKindOfClass:[UILabel class]])
@@ -153,7 +154,7 @@
     //其他类不支持
     else
     {
-//        manager = nil;
+        //        manager = nil;
     }
     return manager;
 }
@@ -163,99 +164,4 @@
     return objc_getAssociatedObject(self, key);
 }
 
-
-/* x,y,midX,midY,maxX,maxY,width,height */
--(void )setX:(CGFloat)x
-{
-    CGRect frame = self.frame;
-    frame.origin.x = x;
-    self.frame = frame;
-}
-
--(CGFloat )x
-{
-    return CGRectGetMinX(self.frame);
-}
-
--(void )setY:(CGFloat)y
-{
-    CGRect frame = self.frame;
-    frame.origin.y = y;
-    self.frame = frame;
-}
-
--(CGFloat )y
-{
-    return CGRectGetMinY(self.frame);
-}
-
--(CGFloat )midX
-{
-    return CGRectGetMidX(self.frame);
-}
-
--(CGFloat )maxX
-{
-    return CGRectGetMaxX(self.frame);
-}
-
--(CGFloat )midY
-{
-    return CGRectGetMidY(self.frame);
-}
-
--(CGFloat )maxY
-{
-    return CGRectGetMaxY(self.frame);
-}
-
--(void )setWidth:(CGFloat)width
-{
-    CGRect frame = self.frame;
-    frame.size.width = width;
-    self.frame = frame;
-}
-
--(CGFloat )width
-{
-    return CGRectGetWidth(self.frame);
-}
-
--(void )setHeight:(CGFloat)height
-{
-    CGRect frame = self.frame;
-    frame.size.height = height;
-    self.frame = frame;
-}
-
--(CGFloat )height
-{
-    return CGRectGetHeight(self.frame);
-}
-
-
-/* origin,size */
--(void )setOrigin:(CGPoint)origin
-{
-    CGRect frame = self.frame;
-    frame.origin = origin;
-    self.frame = frame;
-}
-
--(CGPoint )origin
-{
-    return self.frame.origin;
-}
-
--(void )setSize:(CGSize)size
-{
-    CGRect frame = self.frame;
-    frame.size = size;
-    self.frame = frame;
-}
-
--(CGSize )size
-{
-    return self.frame.size;
-}
 @end
